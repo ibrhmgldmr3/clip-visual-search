@@ -1,0 +1,29 @@
+# Veri
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/NOTES.md
+data/processed/*
+!data/processed/.gitkeep
+
+# Ciktilar
+outputs/embeddings/*
+!outputs/embeddings/.gitkeep
+outputs/faiss_index/*
+!outputs/faiss_index/.gitkeep
+outputs/predictions/*
+!outputs/predictions/.gitkeep
+outputs/runs/*
+!outputs/runs/.gitkeep
+outputs/train_log.txt
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ortam
+.venv/
+venv/
